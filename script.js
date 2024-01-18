@@ -1,5 +1,8 @@
 const btn = document.querySelector(".btn");
-btn.addEventListener("click",()=>{
-	const input = document.querySelector(".input");
-	input.search.active();
+const search = document.querySelector(".search");
+
+
+search.addEventListener("focus",()=>{
+	btn.classList.add("active");
 })
+
