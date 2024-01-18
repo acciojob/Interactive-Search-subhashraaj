@@ -3,6 +3,6 @@ const search = document.querySelector(".search");
 
 
 search.addEventListener("focus",()=>{
-	btn.classList.add("active");
+	search.classList.add("active");
 })
 
